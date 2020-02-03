@@ -4,16 +4,26 @@
 
 1. ( ) "I am a "Horse""
 2. ( ) "I 'prefer' ducks'
-3. ( ) 'Yes, duck is nice'
-4. ( ) "Ah, but I\'m vegan!"
+3. ( x ) 'Yes, duck is nice'
+4. ( x ) "Ah, but I\'m vegan!"
 5. ( ) 'You'll eat salad then'
-6. ( ) 'Yes I\'ll eat salad'
+6. ( x ) 'Yes I\'ll eat salad'
 7. ( ) "I'm happy to hear that!"
 8. ( ) "\"Happy to hear " + 'that" ' + "he says!"
-9. ( ) “Hello world!”
+9. ( x ) “Hello world!”
 
 
 ## Question 2: Rewrite below all of the strings that are not valid, and correct them to make them valid. 
+
+'I am a \"horse\"'
+
+'I \'prefer\' ducks'
+
+'You\'ll eat salad then'
+
+'I\'m happy to hear that!'
+
+'\"Happy to hear that\" he says!'
 
 
 

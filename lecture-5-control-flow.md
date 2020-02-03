@@ -61,11 +61,25 @@ Turn the following sentences into valid JavaScript `if` statements. _Use console
 // 1. If it rains, I stay home.
 let currentWeather = 'rainy';
 
+if (currentWeather === 'rainy') {
+    console.log("Then I stay home.");
+}
+
 // 2. If I am hungry, I eat.
 let hunger = true;
 
+if (hunger) {
+    console.log("Let's eat!");
+}
+
 // 3. If it's 10pm, I go to bed. If not, I write code.
 let currentHour = 22;
+
+if (currentHour >= 22) {
+    console.log("Bed time!");
+} else {
+    console.log("Keep on coding!");
+}
 
 ```
 
@@ -179,7 +193,9 @@ for (let number = 0; number <=12; number = number + 1) {
 Write a program that output all of the numbers from 0 to 25
 
 ```js
-// code here
+for (let x = 0, x <= 25, x++) {
+    console.log(x);
+}
 
 ```
 
@@ -190,7 +206,9 @@ Write a program that output all of the numbers from 0 to 25
 Write a program that output all of ODD the numbers from 0 to 25
 
 ```js
-// code here
+for (let num = 1, num <= 25, num+=2) {
+    console.log(i);
+}
 
 ```
 
@@ -201,7 +219,12 @@ Write a program that output all of ODD the numbers from 0 to 25
 Write a program that output all of the numbers from 0 to 25, but replaces all multipes of `5` by the phrase `five alive!`
 
 ```js
-// code here
+for (let x = 0; x <=25; x++) {
+    if (x % 5 === 0) {
+        console.log("five alive");
+    } else {
+    console.log(x);
+}
 
 ```
 

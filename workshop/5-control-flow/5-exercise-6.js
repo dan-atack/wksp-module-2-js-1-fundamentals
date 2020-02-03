@@ -9,3 +9,11 @@
 // between 0 and 5000
 //
 // ANSWER: the number you should see in the console is 3127500
+
+let total = 0;
+
+for (let i = 0; i <= 5000; i += 4) {
+    total += i;
+}
+
+console.log(total);

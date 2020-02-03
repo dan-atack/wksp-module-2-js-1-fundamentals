@@ -17,3 +17,32 @@
 // _#_#_#_#
 // #_#_#_#_
 // _#_#_#_#
+
+let board = "";
+let oddLine = true;   // to set up alternating pattern between lines we'll track if it's an odd line or not...
+
+for (let x = 1; x <= 64; x++) {
+    if (oddLine) {
+        if (x % 2 === 0) {
+            board += "_";
+        } else {
+            board += "#";
+        }
+    } else {    // Pattern is reversed for every alternate line.
+        if (x % 2 === 0) {
+            board += "#";
+        } else {
+            board += "_";
+        }
+    }
+    if (x % 8 === 0) {
+        board += "\n";
+        if (oddLine) {
+            oddLine = false;
+        } else {
+            oddLine = true;
+        }
+    }
+};
+
+console.log(board);
